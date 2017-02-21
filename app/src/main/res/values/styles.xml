@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/MyTextTitle</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyTextTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorAppTitle</item>
+    </style>
+
+    <style name="PreferenceTheme" >
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorAppTitle</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorAppTitle</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorAppTitle</item>
+    </style>
+</resources>

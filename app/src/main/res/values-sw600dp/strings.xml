@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addFavourite">+Favourite</string>
+    <string name="trailers_label">TRAILERS</string>
+    <string name="sort_favourites">Favourites</string>
+    <string name="sort_popular">popular</string>
+    <string name="InstanceState_GridPosition">GridPosition</string>
+</resources>

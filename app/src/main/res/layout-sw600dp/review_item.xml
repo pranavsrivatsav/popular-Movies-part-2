@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <View
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:textSize="22sp"
+            tools:text="USER"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:textColor="#c0ca33"/>
+
+        <TextView
+            tools:text="Review"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:textColor="#c0ca33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_review"/>
+
+    </LinearLayout>

@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
     public void ReloadMovies(String sortChoice){
         if(sortChoice.equals(getString(R.string.sort_favourites))){
             mErrorMessage.setVisibility(View.INVISIBLE);
-//            loaderManager.destroyLoader(MovieAsyncLoader.ID_MOVIE_LOADER);
+            loaderManager.destroyLoader(MovieAsyncLoader.ID_MOVIE_LOADER);
             Log.i(LOG_TAG,"INSIDE FAV PART");
             if(loaderManager.getLoader(MovieCursorLoader.ID_FAVOURITE_LOADER)==null)
                 loaderManager.initLoader(MovieCursorLoader.ID_FAVOURITE_LOADER,
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
         }
         else{
             Log.i(LOG_TAG,"INSIDE ASYNC PART");
-//            loaderManager.destroyLoader(MovieCursorLoader.ID_FAVOURITE_LOADER);
+            loaderManager.destroyLoader(MovieCursorLoader.ID_FAVOURITE_LOADER);
             if(loaderManager.getLoader(MovieAsyncLoader.ID_MOVIE_LOADER)==null)
                 loaderManager.initLoader(MovieAsyncLoader.ID_MOVIE_LOADER,
                         null,
